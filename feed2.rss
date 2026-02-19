@@ -6,22 +6,27 @@
     <description>Local emergency alert feed for Burke County area</description>
     <item>
       <title>FLASH FLOOD WARNING - Burke County</title>
+      <description></description>
       <pubDate>Wed, 19 Feb 2026 14:00:00 EST</pubDate>
     </item>
     <item>
       <title>WINTER STORM WARNING - NC Foothills</title>
+      <description></description>
       <pubDate>Wed, 19 Feb 2026 12:00:00 EST</pubDate>
     </item>
     <item>
       <title>LANDSLIDE ADVISORY - Western Burke County</title>
+      <description></description>
       <pubDate>Wed, 19 Feb 2026 10:00:00 EST</pubDate>
     </item>
     <item>
       <title>SEVERE THUNDERSTORM WARNING - Burke County</title>
+      <description></description>
       <pubDate>Wed, 19 Feb 2026 08:00:00 EST</pubDate>
     </item>
     <item>
       <title>WILDFIRE SMOKE ADVISORY - NC Foothills</title>
+      <description></description>
       <pubDate>Tue, 18 Feb 2026 16:00:00 EST</pubDate>
     </item>
   </channel>
