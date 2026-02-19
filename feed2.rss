@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<rss version="2.0">
+<rss version="2.0" xmlns:media="http://search.yahoo.com/mrss/">
   <channel>
     <title>Emergency Alerts - Chesterfield NC</title>
     <link>https://callenoptec.github.io/emergency-alerts</link>
@@ -7,31 +7,31 @@
     <item>
       <title>FLASH FLOOD WARNING - Burke County</title>
       <description>Flash flooding occurring along the Catawba River basin. Multiple roads impassable. Avoid low-lying areas and do not attempt to cross flooded roadways. Turn around, don't drown.</description>
-      <enclosure url="https://api.qrserver.com/v1/create-qr-code/?size=300x300&amp;data=https://www.google.com" type="image/png" length="0"/>
+      <media:content url="https://api.qrserver.com/v1/create-qr-code/?size=300x300&amp;data=https://www.google.com" type="image/png" medium="image"/>
       <pubDate>Wed, 19 Feb 2026 14:00:00 EST</pubDate>
     </item>
     <item>
       <title>WINTER STORM WARNING - NC Foothills</title>
       <description>Heavy snow and ice expected. 6-10 inches of snow with up to 0.25 inch ice accumulation. Hazardous travel conditions. Avoid unnecessary travel. Power outages likely.</description>
-      <enclosure url="https://api.qrserver.com/v1/create-qr-code/?size=300x300&amp;data=https://www.google.com" type="image/png" length="0"/>
+      <media:content url="https://api.qrserver.com/v1/create-qr-code/?size=300x300&amp;data=https://www.google.com" type="image/png" medium="image"/>
       <pubDate>Wed, 19 Feb 2026 12:00:00 EST</pubDate>
     </item>
     <item>
       <title>LANDSLIDE ADVISORY - Western Burke County</title>
       <description>Saturated soils increasing landslide risk along mountain slopes. Avoid steep terrain and hillside roads. Report any ground movement or new cracks to Burke County Emergency Management at 828-439-4460.</description>
-      <enclosure url="https://api.qrserver.com/v1/create-qr-code/?size=300x300&amp;data=https://www.google.com" type="image/png" length="0"/>
+      <media:content url="https://api.qrserver.com/v1/create-qr-code/?size=300x300&amp;data=https://www.google.com" type="image/png" medium="image"/>
       <pubDate>Wed, 19 Feb 2026 10:00:00 EST</pubDate>
     </item>
     <item>
       <title>SEVERE THUNDERSTORM WARNING - Burke County</title>
       <description>Severe thunderstorm capable of producing 60 mph winds and quarter-size hail. Seek shelter in a sturdy building immediately. Stay away from windows.</description>
-      <enclosure url="https://api.qrserver.com/v1/create-qr-code/?size=300x300&amp;data=https://www.google.com" type="image/png" length="0"/>
+      <media:content url="https://api.qrserver.com/v1/create-qr-code/?size=300x300&amp;data=https://www.google.com" type="image/png" medium="image"/>
       <pubDate>Wed, 19 Feb 2026 08:00:00 EST</pubDate>
     </item>
     <item>
       <title>WILDFIRE SMOKE ADVISORY - NC Foothills</title>
       <description>Wildfire smoke reducing air quality to unhealthy levels. Limit outdoor activity. Keep windows and doors closed. Those with asthma or respiratory conditions should remain indoors.</description>
-      <enclosure url="https://api.qrserver.com/v1/create-qr-code/?size=300x300&amp;data=https://www.google.com" type="image/png" length="0"/>
+      <media:content url="https://api.qrserver.com/v1/create-qr-code/?size=300x300&amp;data=https://www.google.com" type="image/png" medium="image"/>
       <pubDate>Tue, 18 Feb 2026 16:00:00 EST</pubDate>
     </item>
   </channel>
