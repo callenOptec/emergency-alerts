@@ -5,7 +5,7 @@
     <link>https://callenoptec.github.io/emergency-alerts</link>
     <description>Local emergency alert feed for Burke County area</description>
     <item>
-      <title>FLASH FLOOD WARNING - Burke County</title>
+      <title>FLASH FLOOD WARNING 2 - Burke County</title>
       <description>Flash flooding occurring along the Catawba River basin. Multiple roads impassable. Avoid low-lying areas and do not attempt to cross flooded roadways. Turn around, don't drown.</description>
       <media:content url="https://api.qrserver.com/v1/create-qr-code/?size=300x300&amp;data=https://www.google.com" type="image/png" medium="image"/>
       <pubDate>Wed, 19 Feb 2026 14:00:00 EST</pubDate>
