@@ -17,7 +17,7 @@
     <description>Flash flooding occurring along the Catawba River basin. Multiple roads impassable. Avoid low-lying areas and do not attempt to cross flooded roadways. Turn around, don't drown.</description>
     <parameter>
       <valueName>LED_Color</valueName>
-      <value>#FF1111</value>
+      <value>#000000</value>
     </parameter>
     <parameter>
       <valueName>LED_Behavior</valueName>
