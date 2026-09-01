@@ -14,7 +14,7 @@
     <severity>Extreme</severity>
     <certainty>Observed</certainty>
     <headline>FLASH FLOOD WARNING 2 - Burke County</headline>
-    <description>Flash flooding occurring along the Catawba River basin. Multiple roads impassable. Avoid low-lying areas and do not attempt to cross flooded roadways. Turn around, don't drown.</description>
+    <description> TEST Flash flooding occurring along the Catawba River basin. Multiple roads impassable. Avoid low-lying areas and do not attempt to cross flooded roadways. Turn around, don't drown.</description>
     <parameter>
       <valueName>LED_Color</valueName>
       <value>#ff0000</value>
