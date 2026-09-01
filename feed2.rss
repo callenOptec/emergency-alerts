@@ -1,38 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<rss version="2.0" xmlns:media="http://search.yahoo.com/mrss/">
-  <channel>
-    <title>Emergency Alerts - Chesterfield NC</title>
-    <link>https://callenoptec.github.io/emergency-alerts</link>
-    <description>Local emergency alert feed for Burke County area</description>
-    <item>
-      <title>FLASH FLOOD WARNING 2 - Burke County</title>
-      <description>Flash flooding occurring along the Catawba River basin. Multiple roads impassable. Avoid low-lying areas and do not attempt to cross flooded roadways. Turn around, don't drown.</description>
-      <media:content url="https://api.qrserver.com/v1/create-qr-code/?size=300x300&amp;data=https://www.google.com" type="image/png" medium="image"/>
-      <pubDate>Wed, 19 Feb 2026 14:00:00 EST</pubDate>
-    </item>
-    <item>
-      <title>WINTER STORM WARNING - NC Foothills</title>
-      <description>Heavy snow and ice expected. 6-10 inches of snow with up to 0.25 inch ice accumulation. Hazardous travel conditions. Avoid unnecessary travel. Power outages likely.</description>
-      <media:content url="https://api.qrserver.com/v1/create-qr-code/?size=300x300&amp;data=https://www.google.com" type="image/png" medium="image"/>
-      <pubDate>Wed, 19 Feb 2026 12:00:00 EST</pubDate>
-    </item>
-    <item>
-      <title>LANDSLIDE ADVISORY - Western Burke County</title>
-      <description>Saturated soils increasing landslide risk along mountain slopes. Avoid steep terrain and hillside roads. Report any ground movement or new cracks to Burke County Emergency Management at 828-439-4460.</description>
-      <media:content url="https://api.qrserver.com/v1/create-qr-code/?size=300x300&amp;data=https://www.google.com" type="image/png" medium="image"/>
-      <pubDate>Wed, 19 Feb 2026 10:00:00 EST</pubDate>
-    </item>
-    <item>
-      <title>SEVERE THUNDERSTORM WARNING - Burke County</title>
-      <description>Severe thunderstorm capable of producing 60 mph winds and quarter-size hail. Seek shelter in a sturdy building immediately. Stay away from windows.</description>
-      <media:content url="https://api.qrserver.com/v1/create-qr-code/?size=300x300&amp;data=https://www.google.com" type="image/png" medium="image"/>
-      <pubDate>Wed, 19 Feb 2026 08:00:00 EST</pubDate>
-    </item>
-    <item>
-      <title>WILDFIRE SMOKE ADVISORY - NC Foothills</title>
-      <description>Wildfire smoke reducing air quality to unhealthy levels. Limit outdoor activity. Keep windows and doors closed. Those with asthma or respiratory conditions should remain indoors.</description>
-      <media:content url="https://api.qrserver.com/v1/create-qr-code/?size=300x300&amp;data=https://www.google.com" type="image/png" medium="image"/>
-      <pubDate>Tue, 18 Feb 2026 16:00:00 EST</pubDate>
-    </item>
-  </channel>
-</rss>
+<alert xmlns="urn:oasis:names:tc:emergency:cap:1.2">
+  <identifier>chesterfield-flash-flood-2</identifier>
+  <sender>callenoptec.github.io</sender>
+  <sent>2026-08-31T12:00:00-04:00</sent>
+  <status>Actual</status>
+  <msgType>Alert</msgType>
+  <scope>Public</scope>
+  <info>
+    <language>en-US</language>
+    <category>Met</category>
+    <event>Flash Flood Warning</event>
+    <urgency>Immediate</urgency>
+    <severity>Extreme</severity>
+    <certainty>Observed</certainty>
+    <headline>FLASH FLOOD WARNING 2 - Burke County</headline>
+    <description>Flash flooding occurring along the Catawba River basin. Multiple roads impassable. Avoid low-lying areas and do not attempt to cross flooded roadways. Turn around, don't drown.</description>
+    <parameter>
+      <valueName>LED_Color</valueName>
+      <value>#FF0000</value>
+    </parameter>
+    <parameter>
+      <valueName>LED_Behavior</valueName>
+      <value>Solid</value>
+    </parameter>
+  </info>
+</alert>
